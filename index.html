@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/u/0/favicons?domain=specialk.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Infinity Scroll</title>
+  </head>
+
+  <body>
+    <!-- Title -->
+    <h1>Unsplash Images</h1>
+    <!-- Select Category -->
+    <select name="category" id="category" autofocus>
+      <option value="" selected disabled>Select Category</option>
+      <option value="nature">Nature</option>
+      <option value="athletics">Athletics</option>
+      <option value="travel">Travel</option>
+      <option value="food-drink">Food & Drink</option>
+      <option value="film">Film</option>
+      <option value="history">History</option>
+      <option value="arts-culture">Art & Culture</option>
+      <option value="textures-patterns">Texture Pattern</option>
+    </select>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+      <img src="loader.svg" alt="loader" />
+    </div>
+    <!-- Images -->
+    <div class="image-container" id="image-container"></div>
+
+    <!-- Script JS file -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

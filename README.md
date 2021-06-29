@@ -6,7 +6,7 @@
   when building the file.
 
 ### Build command
-
+- Use this command while hosting in netlify.
 ```
 echo -e "export const API_KEY = 'YOUR_API_KEY';" > apikey.js
 ```
